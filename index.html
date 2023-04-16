@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MemeTube</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <link rel="stylesheet" href="css\styles.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+    <div class="header flex-div">
+      <div class="logo flex-div">
+          <i class="fa-solid fa-bars menu-icon"></i>
+          <a class="logo-brand" href="index.html"><img src="img/logo.jpg"> <span>Memetube</span> </a>
+      </div>
+
+      <div class="flex-div middle">
+        <form action="" class="search-bar flex-div">
+          <input type="text" placeholder="Search" name="search">
+          <i class="fa fa-search"></i>
+        </form>
+
+        <i class="fa-solid fa-microphone"></i>
+      </div>
+
+      <div class="header-profile flex-div">
+          <i class="fa-solid fa-video"></i>
+          <div class="notification">
+            <span class="notification-number">
+              5 
+            </span>
+            <i class="fa-regular fa-bell"></i>
+          </div>
+          <a class="profile-user" href="#home"><img src="img/profile.jpg"></a>
+      </div>
+    </div>
+
+
+    <div class="left-side">
+      <div class="side-wrapper">
+        <div class="side-menu">
+          <a class="active" href=""><i class="fa-solid fa-house"></i><span>Home</span></a>
+          <a href=""><i class="fa-regular fa-circle-play"></i><span>Shorts</span></a>
+          <a href=""><i class="fa-solid fa-box-archive"></i><span>Subscriptions</span></a>
+        </div>
+
+        <hr class="hide">
+
+        <div class="side-menu">
+          <a href=""><i class="fa-regular fa-folder-open"></i><span>Library</span></a>
+          <a href="" class="hide"><i class="fa-solid fa-clock-rotate-left"></i>History</a>
+          <a href="" class="hide"><i class="fa-regular fa-clock"></i>Watch Later</a>
+          <a href=""><i class="fa-solid fa-download"></i><span>Downloads</span></a>
+          <a href="" class="hide"><i class="fa-regular fa-thumbs-up"></i>Liked videos</a>
+        </div>
+      </div>
+
+        <hr class="hide">
+
+      <div class="side-wrapper hide">
+        <div class="side-title">
+          Subscriptions
+        </div>
+        <div class="side-menu">
+          <a href=""><img src="img/law.jpg">Baddest Lawyer</a>
+          <a href=""><img src="img/babyc.jpg">Baby Videos</a>
+          <a href=""><img src="img/nolly.jpg">Nollywood TV</a>
+          <a href=""><img src="img/skits.jpg">Funny Skits</a>
+          <a href=""><img src="img/live.jpg">Live TV</a>
+        </div>
+      </div>
+
+      <hr class="hide">
+
+      <div class="side-wrapper hide">
+        <div class="side-title">
+          Explore
+        </div>
+        <div class="side-menu">
+          <a href=""><i class="fa-solid fa-fire-flame-curved"></i>Trending</a>
+          <a href=""><i class="fa-solid fa-music"></i>Music</a>
+          <a href=""><i class="fa-solid fa-gamepad"></i>Gaming</a>
+          <a href=""><i class="fa-regular fa-newspaper"></i>News</a>
+          <a href=""><i class="fa-solid fa-trophy"></i>Sport</a>
+        </div>
+      </div>
+
+      <hr class="hide">
+
+      <div class="side-wrapper hide">
+        <div class="side-title">
+          More from MemeTube
+        </div>
+        <div class="side-menu">
+          <a href=""><i class="fa-brands fa-youtube"></i>Premium Meme</a>
+          <a href=""><i class="fa-solid fa-laptop-code"></i>Creator Studio</a>
+          <a href=""><i class="fa-solid fa-record-vinyl"></i>Memetube Music</a>
+          <a href=""><i class="fa-brands fa-square-youtube"></i>Memetube Kids</a>
+          <a href=""><i class="fa-solid fa-tv"></i>Memetube TV</a>
+        </div>
+      </div>
+
+      <hr class="hide">
+
+      <div class="side-wrapper hide">
+        <div class="side-menu">
+          <a href=""><i class="fa-solid fa-gear"></i>Settings</a>
+          <a href=""><i class="fa-regular fa-flag"></i>Report history</a>
+          <a href=""><i class="fa-regular fa-circle-question"></i>Help</a>
+          <a href=""><i class="fa-regular fa-comment-dots"></i>Send feedback</a>
+        </div>
+      </div>
+
+      <hr class="hide">
+
+      <div class="side-wrapper hide">
+        <div class="side-menu-last">
+          <div>
+            <div>
+              <span><a href="">About</a></span>
+              <span><a href="">Press</a></span>
+              <span><a href="">Copyright</a></span>
+            </div>
+            <div>
+              <span><a href="">Contact us</a></span>
+              <span><a href="">Creator</a></span>
+              <span><a href="">Advertise</a></span>
+            </div>
+            <div>
+              <span><a href="">Developers</a></span>
+            </div>
+          </div>
+          
+          <div>
+            <div>
+              <span><a href="">Terms</a></span>
+              <span><a href="">Privacy</a></span>
+              <span><a href="">Policy & Safety</a></span>
+            </div>
+            <div>
+              <span><a href="">How MemeTube works</a></span>
+            </div>
+            <div>
+              <span><a href="">Test new features</a></span>
+            </div>
+          </div>
+
+          <div class="copyright">
+            <span><i class="fa-regular fa-copyright"></i> 2023 Grand LLC</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="right-side">
+      <div class="carousel" data-flickity='{ "wrapAround": true, "draggable": false, "pageDots": false, "contain": true, "initialIndex": 5 }'>
+        <div class="carousel-cell active">
+          <a href="index.html" class="main-header-link active">All</a>
+        </div>
+        <div class="carousel-cell">
+          <a href="Odunlade.html" class="main-header-link">Odunlade</a>
+        </div>
+        <div class="carousel-cell">
+          <a href="Baby's-reaction.html" class="main-header-link">Cute baby</a>
+        </div>
+        <div class="carousel-cell">
+          <a href="Funny-lawyer.html" class="main-header-link">Funny lawyer</a>
+        </div>
+        <div class="carousel-cell">
+          <a href="Two-grown-men.html" class="main-header-link">Bar fight</a>
+        </div>
+        <div class="carousel-cell">
+          <a href="Female-journalst.html" class="main-header-link">Reporters meme</a>
+        </div>
+        <div class="carousel-cell">
+          <a href="Things-are-happening.html" class="main-header-link">Babalawo</a>
+        </div>
+        <div class="carousel-cell">
+          <a href="Young-lad.html" class="main-header-link">Street</a>
+        </div>
+        <div class="carousel-cell">
+          <a href="Charles-Inojie.html" class="main-header-link">Nkem Owoh</a>
+        </div>
+        <div class="carousel-cell">
+          <a href="Josh2Funny-praising-GOD.html" class="main-header-link">Josh2funny</a>
+        </div>
+        <div class="carousel-cell">
+          <a href="You-disgust-me.html" class="main-header-link">Billy&Mandy</a>
+        </div>
+        <div class="carousel-cell">
+          <a href="Odunlade.html" class="main-header-link">Street flows</a>
+        </div>
+        <div class="carousel-cell">
+          <a href="Baby's-reaction.html" class="main-header-link">Baby</a>
+        </div>
+        <div class="carousel-cell">
+          <a href="Funny-lawyer.html" class="main-header-link">Court skits</a>
+        </div>
+        <div class="carousel-cell">
+          <a href="Two-grown-men.html" class="main-header-link">Drunken fight</a>
+        </div>
+        <div class="carousel-cell">
+          <a href="Female-journalst.html" class="main-header-link">Journalist</a>
+        </div>
+        <div class="carousel-cell">
+          <a href="Things-are-happening.html" class="main-header-link">Tiktok skits</a>
+        </div>
+        <div class="carousel-cell">
+          <a href="Young-lad.html" class="main-header-link">Lies</a>
+        </div>
+        <div class="carousel-cell">
+          <a href="Charles-Inojie.html" class="main-header-link">Charles</a>
+        </div>
+        <div class="carousel-cell">
+          <a href="Josh2Funny-praising-GOD.html" class="main-header-link">Praises</a>
+        </div>
+        <div class="carousel-cell">
+          <a href="You-disgust-me.html" class="main-header-link">Cartoon</a>
+        </div>
+      </div>
+
+      <div class="banner">
+        <img src="img/banner.jpg">
+      </div>
+
+      <div class="list-container">
+        <div class="card-list">
+          <a href="Young-lad.html"><img src="img/young.jpg" class="thumbnail"></a>
+          <div class="flex-div">
+            <img src="img/skits.JPG">
+            <div class="card-info">
+              <a href="Young-lad.html">Young lad claims to have only one girlfriend ...</a>
+              <p>The Streets</p>
+              <p>150k views &bull; 15 hours ago</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card-list">
+          <a href="Baby's-reaction.html"><img src="img/babby.jpg" class="thumbnail"></a>
+          <div class="flex-div">
+            <img src="img/babyc.JPG">
+            <div class="card-info">
+              <a href="Baby's-reaction.html">Baby's reaction after being told he couldn't play outside</a>
+              <p>Baby Videos</p>
+              <p>25k views &bull; 12 days ago</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card-list">
+          <a href="Things-are-happening.html"><img src="img/things.jpg" class="thumbnail"></a>
+          <div class="flex-div">
+            <img src="img/skits.JPG">
+            <div class="card-info">
+              <a href="Things-are-happening.html">Things are happening sha - Part 2</a>
+              <p>Funny Skits</p>
+              <p>1k views &bull; 2 days ago</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card-list">
+          <a href="Odunlade.html"><img src="img/odun.jpg" class="thumbnail"></a>
+          <div class="flex-div">
+            <img src="img/nolly.JPG">
+            <div class="card-info">
+              <a href="Odunlade.html">Odunlade toasting a street babe</a>
+              <p>Nollywood TV</p>
+              <p>150k views &bull; 5 days ago</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card-list">
+          <a href="Josh2Funny-praising-GOD.html"><img src="img/josh.jpg" class="thumbnail"></a>
+          <div class="flex-div">
+            <img src="img/skits.JPG">
+            <div class="card-info">
+              <a href="Josh2Funny-praising-GOD.html">Josh2Funny praising GOD</a>
+              <p>Funny Skits</p>
+              <p>3k views &bull; 1 day ago</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card-list">
+          <a href="My-lord.html"><img src="img/mylord.jpg" class="thumbnail"></a>
+          <div class="flex-div">
+            <img src="img/law.JPG">
+            <div class="card-info">
+              <a href="My-lord.html">My lord stunned by lawyer presenting evidence</a>
+              <p>Baddest Lawyer</p>
+              <p>10k views &bull; 2 days ago</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card-list">
+          <a href="Charles-Inojie.html"><img src="img/charles.jpg" class="thumbnail"></a>
+          <div class="flex-div">
+            <img src="img/nolly.JPG">
+            <div class="card-info">
+              <a href="Charles-Inojie.html">Charles Inojie telling Nkem Owoh how lucky he is</a>
+              <p>Nollywood TV</p>
+              <p>75k views &bull; 7 days ago</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card-list">
+          <a href="Little-boy.html"><img src="img/little.jpg" class="thumbnail"></a>
+          <div class="flex-div">
+            <img src="img/babyc.JPG">
+            <div class="card-info">
+              <a href="Little-boy.html">Little boy praying to GOD</a>
+              <p>Baby Videos</p>
+              <p>100k views &bull; 2 days ago</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card-list">
+          <a href="Funny-lawyer.html"><img src="img/funny.jpg" class="thumbnail"></a>
+          <div class="flex-div">
+            <img src="img/law.JPG">
+            <div class="card-info">
+              <a href="Funny-lawyer.html">Funny lawyer moment in court</a>
+              <p>Baddest Lawyer</p>
+              <p>15k views &bull; 2 days</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card-list">
+          <a href="You-disgust-me.html"><img src="img/You.jpg" class="thumbnail"></a>
+          <div class="flex-div">
+            <img src="img/billy.jpg">
+            <div class="card-info">
+              <a href="You-disgust-me.html">You disgust me, Billy and Mandy</a>
+              <p>Cartoon meme</p>
+              <p>28k views &bull; 8 days ago</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card-list">
+          <a href="Lady-tells-sapa.html"><img src="img/lady.jpg" class="thumbnail"></a>
+          <div class="flex-div">
+            <img src="img/sapa.JPG">
+            <div class="card-info">
+              <a href="Lady-tells-sapa.html">Lady tells sapa it will see her in town soon</a>
+              <p>SapaTV</p>
+              <p>490k views &bull; 3 days ago</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card-list">
+          <a href="Biker.html"><img src="img/biker.jpg" class="thumbnail"></a>
+          <div class="flex-div">
+            <img src="img/love.JPG">
+            <div class="card-info">
+              <a href="Biker.html">Biker delivering valentine's gift crashes into a car</a>
+              <p>Love Channel</p>
+              <p>15k views &bull; 2 days ago</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card-list">
+          <a href="Two-grown-men.html"><img src="img/two.jpg" class="thumbnail"></a>
+          <div class="flex-div">
+            <img src="img/bar.JPG">
+            <div class="card-info">
+              <a href="Two-grown-men.html">Two grown men quarelling at a bar</a>
+              <p>Bar Fights</p>
+              <p>205k views &bull; 32 days ago</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card-list">
+          <a href="Female-journalst.html"><img src="img/female.png" class="thumbnail"></a>
+          <div class="flex-div">
+            <img src="img/live.JPG">
+            <div class="card-info">
+              <a href="Female-journalst.html">Female journalst gets slapped in the face by a flying fish</a>
+              <p>Live TV</p>
+              <p>150k views &bull; 2 days ago</p>
+            </div>
+          </div>
+        </div>
+         
+        <div class="card-list">
+          <a href="University-bosses.html"><img src="img/Uni.jpg" class="thumbnail"></a>
+          <div class="flex-div">
+            <img src="img/nolly.JPG">
+            <div class="card-info">
+              <a href="University-bosses.html">University bosses showing a newcomer the ropes ...</a>
+              <p>Nollywood TV</p>
+              <p>5k views &bull; 23 hours ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-list">
+          <a href="TV-host.html"><img src="img/tv.jpg" class="thumbnail"></a>
+          <div class="flex-div">
+            <img src="img/live.JPG">
+            <div class="card-info">
+              <a href="TV-host.html">TV host destroys guest who made a ridiculous statement ...</a>
+              <p>Live TV</p>
+              <p>10k views &bull; 2 hours ago</p>
+            </div>
+          </div>
+        </div>       
+      </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+</html>
